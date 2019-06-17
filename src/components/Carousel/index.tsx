@@ -29,17 +29,17 @@ export interface CarouselProps {
   smSlidesSideOffset: number;
   lgSpaceBetween?: boolean;
   smSpaceBetween?: boolean;
+  loop: boolean;
   autoplay?: AutoplayOptions | boolean;
   lazy?: LazyOptions | boolean;
   on?: { [key in SwiperEvent]?: () => void };
-  loop: boolean;
-  shouldSwiperUpdate: boolean;
   className?: string;
   children: React.ReactNode;
 }
 
 const DEFAULT_PARAMS = {
   slideToClickedSlide: true,
+  shouldSwiperUpdate: true,
   threshold: 10,
 };
 
@@ -66,7 +66,6 @@ export default class Carousel extends PureComponent<CarouselProps, State> {
     smSlidesPerView: 1,
     lgSlidesSideOffset: 0,
     smSlidesSideOffset: 0,
-    shouldSwiperUpdate: false,
     loop: false,
   };
   public readonly state = {
@@ -77,7 +76,7 @@ export default class Carousel extends PureComponent<CarouselProps, State> {
   private swiper: SwiperInstance = null;
 
   public componentDidUpdate(prevProps: Readonly<CarouselProps>) {
-    if (this.props.shouldSwiperUpdate && this.shouldSwiperUpdate(prevProps) && this.swiper) {
+    if (this.shouldSwiperUpdate(prevProps) && this.swiper) {
       this.swiper.update();
     }
   }
@@ -197,11 +196,9 @@ export default class Carousel extends PureComponent<CarouselProps, State> {
       loop,
       autoplay,
       lazy,
-      shouldSwiperUpdate,
     } = this.props;
     let params: Partial<ReactIdSwiperProps> = {
       ...DEFAULT_PARAMS,
-      shouldSwiperUpdate,
       loop,
       on: {
         ...on,
