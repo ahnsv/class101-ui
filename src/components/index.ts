@@ -9,3 +9,4 @@ export * from './Navigation';
 export { default as Navigation } from './Navigation';
 export * from './FilterList';
 export * from './RadioButtonGroup';
+export * from './ButtonGroup';
