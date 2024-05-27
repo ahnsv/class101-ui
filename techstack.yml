@@ -1,0 +1,791 @@
+repo_name: ahnsv/class101-ui
+report_id: 0edea2359d0ba02bec74fa866d328973
+version: 0.1
+repo_type: Public
+timestamp: '2024-05-27T04:23:26+00:00'
+requested_by: chiabi
+provider: github
+branch: master
+detected_tools_count: 55
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ahnsv/class101-ui
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/ahnsv/class101-ui
+  detection_source: Repo Metadata
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 16.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: chiabi
+  last_updated_on: 2019-07-05 11:56:26.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 4.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: chiabi
+  last_updated_on: 2019-07-05 11:56:26.000000000 Z
+- name: styled-components
+  description: Visual primitives for the component age. Use the best bits of ES6 and
+    CSS to style your apps without stress.
+  website_url: https://styled-components.com
+  version: 4.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/6749/styled-components.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: 배현승
+  last_updated_on: 2019-07-07 08:17:30.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: ".babelrc"
+  last_updated_by: 배현승
+  last_updated_on: 2018-12-27 10:41:00.000000000 Z
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/.circleci/config.yml
+  detection_source: ".circleci/config.yml"
+  last_updated_by: chiabi
+  last_updated_on: 2018-12-21 06:11:05.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ahnsv/class101-ui
+  detection_source: Repo Metadata
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 20.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: 이성호
+  last_updated_on: 2018-09-03 11:22:06.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 1.16.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: 배현승
+  last_updated_on: 2018-12-27 06:31:27.000000000 Z
+- name: TSLint
+  description: An extensible linter for the TypeScript language
+  website_url: https://github.com/palantir/tslint
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/5561/303157.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: 이성호
+  last_updated_on: 2018-09-03 11:22:06.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: 이성호
+  last_updated_on: 2018-09-03 11:22:06.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: 이성호
+  last_updated_on: 2018-09-03 11:22:06.000000000 Z
+- name: rollup
+  description: The next-generation JavaScript module bundler
+  website_url: http://rollupjs.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/4423/zE8RTn9E_400x400.jpg
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: 배현승
+  last_updated_on: 2018-12-27 11:32:21.000000000 Z
+- name: docz
+  website_url: https://www.docz.site/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10755/no-img-open-source.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: 배현승
+  last_updated_on: 2018-12-27 10:41:00.000000000 Z
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: chiabi
+  last_updated_on: 2018-10-29 17:42:24.000000000 Z
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: 배현승
+  last_updated_on: 2019-07-07 08:17:30.000000000 Z
+- name: semantic-release
+  description: Fully automated version management and package publishing
+  website_url: https://github.com/semantic-release/semantic-release
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10156/12867925.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: chiabi
+  last_updated_on: 2019-05-02 18:48:39.000000000 Z
+- name: gh-pages
+  description: Publish to a gh-pages branch on GitHub
+  package_url: https://www.npmjs.com/gh-pages
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15967/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: chiabi
+  last_updated_on: 2018-10-29 17:42:24.000000000 Z
+  vulnerabilities:
+  - name: tschaub gh-pages vulnerable to prototype pollution
+    cve_id: CVE-2022-37611
+    cve_url: https://github.com/advisories/GHSA-8mmm-9v2q-x3f9
+    detected_date: Apr 23
+    severity: critical
+    first_patched: 5.0.0
+- name: lodash-es
+  description: Lodash exported as ES modules
+  package_url: https://www.npmjs.com/lodash-es
+  version: 4.17.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16587/default_ebd83b4f0415be108d977ea72558b13fd7c5283d.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: chiabi
+  last_updated_on: 2019-03-06 03:19:01.000000000 Z
+  vulnerabilities:
+  - name: Prototype Pollution in lodash
+    cve_id: CVE-2019-10744
+    cve_url: https://github.com/advisories/GHSA-jf85-cpcp-j695
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 4.17.14
+  - name: Prototype Pollution in lodash
+    cve_id: CVE-2020-8203
+    cve_url: https://github.com/advisories/GHSA-p6mc-m468-83gw
+    detected_date: Mar 12
+    severity: high
+    first_patched: 4.17.20
+  - name: Command Injection in lodash
+    cve_id: CVE-2021-23337
+    cve_url: https://github.com/advisories/GHSA-35jh-r3h4-6jhm
+    detected_date: Mar 12
+    severity: high
+    first_patched: 4.17.21
+  - name: Regular Expression Denial of Service (ReDoS) in lodash
+    cve_id: CVE-2020-28500
+    cve_url: https://github.com/advisories/GHSA-29mw-wpgm-hmr9
+    detected_date: Mar 12
+    severity: moderate
+    first_patched: 4.17.21
+- name: swiper
+  description: Most modern mobile touch slider and framework with hardware accelerated
+    transitions
+  package_url: https://www.npmjs.com/swiper
+  version: 4.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17656/default_b06ec1ccf403dac1459596b8571a4fb6a46577e1.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: 배현승
+  last_updated_on: 2019-07-07 08:17:30.000000000 Z
+  vulnerabilities:
+  - name: Prototype Pollution in swiper
+    cve_id: CVE-2021-23370
+    cve_url: https://github.com/advisories/GHSA-p3hc-fv2j-rp68
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 6.5.1
+- name: semantic-release
+  description: Automated semver compliant package publishing
+  package_url: https://www.npmjs.com/semantic-release
+  version: 15.13.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15935/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: chiabi
+  last_updated_on: 2019-05-02 18:48:39.000000000 Z
+  vulnerabilities:
+  - name: Secret disclosure when containing characters that become URI encoded
+    cve_id: CVE-2020-26226
+    cve_url: https://github.com/advisories/GHSA-r2j6-p67h-q639
+    detected_date: Aug 22
+    severity: high
+    first_patched: 17.2.3
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: chiabi
+  last_updated_on: 2019-01-29 12:23:01.000000000 Z
+- name: "@babel/plugin-proposal-class-properties"
+  description: This plugin transforms static class properties as well as properties
+    declared with the property initializer syntax
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-class-properties
+  version: 7.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15903/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: 배현승
+  last_updated_on: 2019-06-08 12:08:03.000000000 Z
+- name: "@babel/plugin-proposal-do-expressions"
+  description: Compile do expressions to ES5
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-do-expressions
+  version: 7.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16627/default_50c9ed1615a25628505ab53def64d82450ced26b.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: chiabi
+  last_updated_on: 2019-07-17 06:07:54.000000000 Z
+- name: "@babel/plugin-proposal-object-rest-spread"
+  description: Compile object rest and spread to ES5
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-object-rest-spread
+  version: 7.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16001/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: 배현승
+  last_updated_on: 2018-12-27 11:32:21.000000000 Z
+- name: "@babel/plugin-transform-modules-commonjs"
+  description: This plugin transforms ES2015 modules to CommonJS
+  package_url: https://www.npmjs.com/@babel/plugin-transform-modules-commonjs
+  version: 7.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16321/default_17385ab3aa01d4c295c08d4a9736140df691c5e9.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: 배현승
+  last_updated_on: 2019-07-07 08:17:30.000000000 Z
+- name: "@babel/plugin-transform-runtime"
+  description: Externalise references to helpers and builtins
+  package_url: https://www.npmjs.com/@babel/plugin-transform-runtime
+  version: 7.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15952/default_4040fefea2f98006727f63d042275b96a275ab2d.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: 배현승
+  last_updated_on: 2018-12-27 11:32:21.000000000 Z
+- name: "@babel/plugin-transform-template-literals"
+  description: Compile ES2015 template literals to ES5
+  package_url: https://www.npmjs.com/@babel/plugin-transform-template-literals
+  version: 7.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18484/default_3ec0464ac20686e95d789b41ae623e935100ada7.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: chiabi
+  last_updated_on: 2019-05-02 18:48:39.000000000 Z
+- name: "@babel/preset-env"
+  description: A Babel preset for each environment
+  package_url: https://www.npmjs.com/@babel/preset-env
+  version: 7.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: 배현승
+  last_updated_on: 2019-01-08 08:22:31.000000000 Z
+- name: "@babel/preset-react"
+  description: Babel preset for all React plugins
+  package_url: https://www.npmjs.com/@babel/preset-react
+  version: 7.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15890/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: chiabi
+  last_updated_on: 2019-07-05 11:56:26.000000000 Z
+- name: "@emotion/core"
+  description: "&gt; Simple styling in React"
+  package_url: https://www.npmjs.com/@emotion/core
+  version: 10.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16475/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: chiabi
+  last_updated_on: 2019-01-29 12:23:01.000000000 Z
+- name: "@types/jest"
+  description: TypeScript definitions for Jest
+  package_url: https://www.npmjs.com/@types/jest
+  version: 23.3.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15840/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: chiabi
+  last_updated_on: 2019-06-12 14:00:34.000000000 Z
+- name: "@types/lodash-es"
+  description: TypeScript definitions for lodash-es
+  package_url: https://www.npmjs.com/@types/lodash-es
+  version: 4.17.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17516/default_911633508f32a5d5016c37ab38144cd661ceb682.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: chiabi
+  last_updated_on: 2019-06-12 14:00:34.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 16.7.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: chiabi
+  last_updated_on: 2019-07-05 11:56:26.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 16.8.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: chiabi
+  last_updated_on: 2019-07-05 11:56:26.000000000 Z
+- name: "@types/react-router-dom"
+  description: TypeScript definitions for React Router
+  package_url: https://www.npmjs.com/@types/react-router-dom
+  version: 4.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16557/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: chiabi
+  last_updated_on: 2019-07-05 11:56:26.000000000 Z
+- name: "@types/styled-components"
+  description: TypeScript definitions for styled-components
+  package_url: https://www.npmjs.com/@types/styled-components
+  version: 4.1.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16494/default_2e7c1d6d94467a56325f7c984571015e8713a450.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: 배현승
+  last_updated_on: 2019-07-07 08:17:30.000000000 Z
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 5.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: 배현승
+  last_updated_on: 2019-01-08 08:22:31.000000000 Z
+- name: docz
+  description: It's has never been so easy to documents your things!
+  package_url: https://www.npmjs.com/docz
+  version: 0.12.17
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17012/default_192373fe2b3ded7bb442c39dbf0f34ca3e5bed5d.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: 배현승
+  last_updated_on: 2018-12-27 10:41:00.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 1.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: chiabi
+  last_updated_on: 2018-10-29 17:42:24.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 8.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: 배현승
+  last_updated_on: 2019-07-07 08:17:30.000000000 Z
+- name: path-to-regexp
+  description: Express style path to RegExp utility
+  package_url: https://www.npmjs.com/path-to-regexp
+  version: 0.1.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16316/default_97104dc50154593d2dde1d791400955934c9c715.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: 배현승
+  last_updated_on: 2019-06-08 12:08:03.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 16.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: chiabi
+  last_updated_on: 2019-07-05 11:56:26.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 4.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: chiabi
+  last_updated_on: 2019-07-05 11:56:26.000000000 Z
+- name: react-scripts-ts
+  description: Configuration and scripts for Create React App
+  package_url: https://www.npmjs.com/react-scripts-ts
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17062/default_32da0e64c9ec90f8f302a76668f802f1f4d08177.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: chiabi
+  last_updated_on: 2019-07-05 11:56:26.000000000 Z
+- name: rollup-plugin-babel
+  description: Seamless integration between Rollup and Babel
+  package_url: https://www.npmjs.com/rollup-plugin-babel
+  version: 4.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15877/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: 배현승
+  last_updated_on: 2018-12-27 11:32:21.000000000 Z
+- name: rollup-plugin-commonjs
+  description: Convert CommonJS modules to ES2015
+  package_url: https://www.npmjs.com/rollup-plugin-commonjs
+  version: 9.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15873/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: 배현승
+  last_updated_on: 2019-07-07 08:17:30.000000000 Z
+- name: rollup-plugin-node-resolve
+  description: Bundle third-party dependencies in node_modules
+  package_url: https://www.npmjs.com/rollup-plugin-node-resolve
+  version: 3.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15859/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: chiabi
+  last_updated_on: 2019-05-02 18:48:39.000000000 Z
+- name: rollup-plugin-peer-deps-external
+  description: Rollup plugin to automatically add a library's peerDependencies to
+    its bundle's external config
+  package_url: https://www.npmjs.com/rollup-plugin-peer-deps-external
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16508/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: chiabi
+  last_updated_on: 2019-05-02 18:48:39.000000000 Z
+- name: rollup-plugin-postcss
+  description: Seamless integration between Rollup and PostCSS
+  package_url: https://www.npmjs.com/rollup-plugin-postcss
+  version: 1.6.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16135/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: 배현승
+  last_updated_on: 2018-12-27 11:32:21.000000000 Z
+- name: rollup-plugin-typescript
+  description: Seamless integration between Rollup and TypeScript
+  package_url: https://www.npmjs.com/rollup-plugin-typescript
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16445/default_55f3303d620c93eecbee69c43373d484f2be492f.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: chiabi
+  last_updated_on: 2019-06-12 14:00:34.000000000 Z
+- name: rollup-plugin-typescript2
+  description: Seamless integration between Rollup and TypeScript
+  package_url: https://www.npmjs.com/rollup-plugin-typescript2
+  version: 0.18.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16076/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: chiabi
+  last_updated_on: 2019-06-12 14:00:34.000000000 Z
+- name: rollup-plugin-url
+  description: Inline import files as data-URIs, or copy them to output
+  package_url: https://www.npmjs.com/rollup-plugin-url
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16256/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: 배현승
+  last_updated_on: 2018-12-27 11:32:21.000000000 Z
+- name: tslib
+  description: Runtime library for TypeScript helper functions
+  package_url: https://www.npmjs.com/tslib
+  version: 1.9.0
+  license: 0BSD
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15853/default_97d4687bd07ff1bb963fd566c84e7cbf7c73bbee.png
+  detection_source_url: https://github.com/ahnsv/class101-ui/blob/master/yarn.lock
+  detection_source: package.json
+  last_updated_by: 배현승
+  last_updated_on: 2019-07-07 08:17:30.000000000 Z
